@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ruibin Min avatar placeholder</title>
+  <desc id="desc">A blue gradient circle with the initials RM.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173b6c"/>
+      <stop offset="1" stop-color="#6f9bd3"/>
+    </linearGradient>
+  </defs>
+  <circle cx="240" cy="240" r="232" fill="url(#bg)"/>
+  <circle cx="240" cy="240" r="206" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="3"/>
+  <text x="240" y="276" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="130" font-weight="700" text-anchor="middle">RM</text>
+</svg>
