@@ -11,7 +11,7 @@ title                    : "Ruibin Min"
 title_separator          : "-"
 name                     : "Ruibin Min"
 description              : "Multimodal Understanding & Generation · World Models"
-repository               : "ruibin-min/ruibin-min-homepage" # update to your GitHub owner/repository before publishing
+repository               : "UIOSN/UIOSN.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -32,7 +32,8 @@ author:
   pubmed           : 
   googlescholar    :
   resume           : 
-  email            :
+  email            : "ruibinmin@gmail.com"
+  wechat           : "rbmin2005"
   resume     : ""
   uri              :
   bitbucket        :
@@ -41,7 +42,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "UIOSN"
   google_plus      :
   keybase          :
   instagram        :

@@ -31,6 +31,9 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
+      {% if author.wechat %}
+        <li><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat: {{ author.wechat }}</li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -124,7 +127,10 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        <a href="mailto:{{ author.email }}" aria-label="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.wechat %}
+        <span class="mobile-wechat" title="WeChat: {{ author.wechat }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></span>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
@@ -160,7 +166,7 @@
         <a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.github %}
-        <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+        <a href="https://github.com/{{ author.github }}" aria-label="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.stackoverflow %}
         <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
@@ -218,9 +224,11 @@
 </div>
 
 <div class="author__visitor-map">
+  {% if site.clustrmaps.enabled %}
   <script type="text/javascript"
     id="clstr_globe"
     src="//clustrmaps.com/globe.js?d={{ site.clustrmaps.id }}">
   </script>
+  {% endif %}
   <p class="visitor-greeting">Welcome to my academic homepage.</p>
 </div>

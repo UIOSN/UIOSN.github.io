@@ -34,3 +34,7 @@ redirect_from:
 
 <span class='anchor' id='-honors-and-awards'></span>
 {% include_relative includes/honers.md %}
+<br>
+
+<span class='anchor' id='-contact'></span>
+{% include_relative includes/contact.md %}

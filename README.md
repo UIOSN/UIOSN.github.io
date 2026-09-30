@@ -20,11 +20,12 @@ Open `http://127.0.0.1:4000/`.
 - `_pages/includes/experience.md`: research experience.
 - `_pages/includes/pub.md`: selected publications.
 - `_pages/includes/honers.md`: awards. The filename is retained for compatibility with the source theme.
+- `_pages/includes/contact.md`: email, GitHub, and WeChat contact details.
 - `images/avatar-placeholder.svg`: replace this file, or change `author.avatar` in `_config.yml`, when a portrait is ready.
 
 ## GitHub Pages deployment
 
-Create a repository named `<github-username>.github.io`, update the `repository` field in `_config.yml`, then push this repository to the `main` branch. GitHub Pages can build this Jekyll site directly.
+Push this repository to `UIOSN/UIOSN.github.io` on the `main` branch. GitHub Pages can build the Jekyll site directly at `https://uiosn.github.io/`.
 
 ## Credits
 

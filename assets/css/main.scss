@@ -330,6 +330,54 @@ body {
   border-radius: 11px;
 }
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+  padding: 0.95rem 1rem;
+  color: #243246 !important;
+  background: #f8fbff;
+  border: 1px solid #dbe7f5;
+  border-radius: 11px;
+  text-decoration: none !important;
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  border-color: #7da0cb;
+}
+
+.contact-card > i {
+  flex: 0 0 auto;
+  color: #315c9b;
+  font-size: 1.3rem;
+}
+
+.contact-card span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 0.88rem;
+  font-weight: 650;
+}
+
+.contact-card small {
+  display: block;
+  margin-bottom: 0.12rem;
+  color: #667a92;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 @media (max-width: 700px) {
   .masthead__menu-home-item { display: table-cell !important; }
   .institution-row { align-items: flex-start; }
@@ -337,4 +385,5 @@ body {
   .institution-heading { flex-direction: column; gap: 0.2rem; }
   .publication-card { grid-template-columns: 1fr; }
   .award-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
 }
