@@ -18,8 +18,8 @@
 
 <div class="timeline-card accent-green">
   <div class="institution-row">
-    <a class="institution-logo logo-wide" href="https://www.cds.hku.hk/" aria-label="HKU School of Computing and Data Science website">
-      <img src="/images/hku.svg" alt="The University of Hong Kong logo">
+    <a class="institution-logo" href="https://www.cds.hku.hk/" aria-label="HKU School of Computing and Data Science website">
+      <img src="/images/hku.svg" alt="The University of Hong Kong shield">
     </a>
     <div class="institution-copy">
       <div class="institution-heading">
