@@ -2,8 +2,8 @@
 
 <div class="timeline-card accent-blue">
   <div class="institution-row">
-    <a class="institution-logo logo-wide" href="https://www.bytedance.com/en/" aria-label="ByteDance website">
-      <img src="/images/bytedance.svg" alt="ByteDance logo">
+    <a class="institution-logo" href="https://www.bytedance.com/en/" aria-label="ByteDance website">
+      <img src="/images/bytedance.svg" alt="ByteDance symbol">
     </a>
     <div class="institution-copy">
       <div class="institution-heading">

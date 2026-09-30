@@ -20,6 +20,7 @@ Open `http://127.0.0.1:4000/`.
 - `_pages/includes/experience.md`: research experience.
 - `_pages/includes/pub.md`: selected publications.
 - `_pages/includes/honers.md`: awards. The filename is retained for compatibility with the source theme.
+- `_pages/includes/visitor_insights.md`: privacy-conscious local visit counter and opt-in public IP display.
 - `_pages/includes/contact.md`: email, GitHub, and WeChat contact details.
 - `images/avatar-placeholder.svg`: replace this file, or change `author.avatar` in `_config.yml`, when a portrait is ready.
 

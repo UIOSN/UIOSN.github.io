@@ -60,9 +60,9 @@ window.addEventListener('load', function() {
   const coreKeywords = [
     { keyword: '🌐 Multimodal Understanding', weight: 5 },
     { keyword: '✨ Multimodal Generation', weight: 5 },
+    { keyword: '🔄 Unified Multimodal Models', weight: 5 },
     { keyword: '🎬 Video Generation', weight: 4 },
-    { keyword: '🧠 World Models', weight: 5 },
-    { keyword: '🤖 Generative Models', weight: 3 }
+    { keyword: '🧠 World Models', weight: 5 }
   ];
 
   function generateKeywordCloud() {
