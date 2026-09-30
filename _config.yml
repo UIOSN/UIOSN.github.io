@@ -10,7 +10,9 @@ locale                   : "en-US"
 title                    : "Ruibin Min"
 title_separator          : "-"
 name                     : "Ruibin Min"
-description              : "Multimodal Understanding & Generation · World Models"
+description              : "Ruibin Min is a Computer Science undergraduate at Sun Yat-sen University and an incoming Ph.D. student at HKUST, researching unified multimodal models and world models."
+url                      : "https://uiosn.github.io"
+baseurl                  : ""
 repository               : "UIOSN/UIOSN.github.io"
 google_scholar_stats_use_cdn : false
 
